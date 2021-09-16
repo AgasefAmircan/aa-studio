@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+  box-shadow: 0 0 25px rgb(0, 0, 0);
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(10, 38, 51);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav #logo a{
+    color: rgb(59, 198, 233);
+    font-size: 30px;
+    padding: 0 50px;
+}
+span{
+    color: rgb(161, 241, 231);
+}
+ nav ul {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 40px;
+
+}
+nav ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+}
+nav ul li a{
+    margin-left:25px ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration:none;
+    transition: all 0.9 ease;
+
+}
+nav ul li a i{
+    display: none;
+    
+}
+nav ul li a:hover{
+    color: crimson;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    padding: 6px;
+    transition: all .9 ease;
+
+}
+.content{
+    height: 100vh;
+    padding-top: 300px;
+    padding-left: 90px;
+    background-color: rgb(6, 20, 22);
+}
+.content .text-1{
+    font-size: 35px;
+    font-family: 'ubuntu' sans-serif ;
+    margin:10px ;
+    color: teal;
+}
+.content .text-2{
+    font-size: 30px;
+    color: rgb(99, 199, 199);
+    font-family: 'ubuntu' sans-serif ;
+    margin: 10px;
+}
+.content .button button{
+    padding: 10px;
+    background-color: rgb(20, 173, 109);
+    width: 100px;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.content .button button:hover{
+    cursor: pointer;
+}
+.content{
+    /* background: url('download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: border-box; */
+    background-color: rgb(14, 41, 38);
+}
+.content .img img{
+    float: right;
+    height: 450px;
+    width: 500px;
+    padding-right:50px ;
+    padding-left: 50px;
+    border-radius:50%;
+    padding-bottom: 100px;
+}
+@media(max-width:1020px){
+  nav ul {
+      display:none;
+  }
+
+}
